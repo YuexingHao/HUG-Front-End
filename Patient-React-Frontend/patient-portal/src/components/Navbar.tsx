@@ -8,9 +8,9 @@ function Navbar() {
 
     const header_updater = (e: any) => {
         // e is of type React.MouseEvent<HTMLButtonElement, MouseEvent>
-        // but strictly typing it that way causes an IDE red-line under 'value':
-        // 
-        // Property 'value' does not exist on type 'EventTarget'
+        // but strictly typing it that way causes an IDE red-line under 'value': "Property 'value' does not exist on type 'EventTarget'"
+        
+        // Update <h1> 'dash-header' with the value of the button clicked
         updateHeader(e.target.value)
     }
     

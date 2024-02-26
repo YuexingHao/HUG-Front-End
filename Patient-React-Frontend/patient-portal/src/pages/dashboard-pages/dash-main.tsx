@@ -1,9 +1,7 @@
-import { Outlet } from "react-router-dom"
-
 function DashMain() {
     return(
         <>
-        <p>DASHMAIN</p>
+        <p>MAIN DASHBOARD PAGE</p>
         
         </>
     )

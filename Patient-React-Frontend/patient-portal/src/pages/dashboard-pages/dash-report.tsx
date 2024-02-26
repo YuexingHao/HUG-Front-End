@@ -2,7 +2,7 @@
 function ReportPage() {
     return(
         <>
-            <p>Reports</p>
+            <p>REPORTS</p>
         </>
     )
 }
