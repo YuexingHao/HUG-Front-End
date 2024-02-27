@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar"
 function Dashboard() {
     return(
         <>
-            <p>DASH</p>
             <Navbar/>
             <div id='dashboard-content'>
                 <Outlet/>

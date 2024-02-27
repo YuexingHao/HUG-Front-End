@@ -1,9 +1,5 @@
-#home-container{
-    margin-left: 20%;
+.home-centered-element{
     text-align: center;
-}
-
-#logo {
     display:block;
     margin:auto;
 }

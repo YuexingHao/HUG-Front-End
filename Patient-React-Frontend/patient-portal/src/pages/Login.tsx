@@ -24,14 +24,15 @@ function Login() {
     return(
         <>
         <div id='login-container'>
-            <img src={hugmedlogo} />
-            {/* Will need to change this to a RR-Dom <Form> tag some point later */}
-            <form onSubmit={handlesubmit}>
-                <input type='text' value="username"/>
-                <input type='text' value="password"/>
-                <input type='submit' value="Submit"/>
-            </form>
-            
+            <div id='login-box'>
+                <img src={hugmedlogo} />
+                {/* Will need to change this to a RR-Dom <Form> tag some point later */}
+                <form onSubmit={handlesubmit}>
+                    <input className='input' type='text' value="username"/>
+                    <input className='input' type='text' value="password"/>
+                    <input className='input' type='submit' value="Submit"/>
+                </form>
+            </div>
         </div>
         </>
     )
