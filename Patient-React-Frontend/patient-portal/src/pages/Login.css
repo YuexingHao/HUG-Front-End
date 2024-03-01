@@ -1,13 +1,19 @@
-#login-container{
+#login-container {
     text-align: center;
 }
-#login-box{
+
+#login-box {
     background-color: lightgray;
     border-radius: 25px;
     width: 40%;
-    margin:auto;
+    margin: auto;
 }
-.input{
-    display:list-item;
-    margin:auto;
+
+.input {
+    display: list-item;
+    margin: auto;
+}
+
+.error-message {
+    color: red;
 }
