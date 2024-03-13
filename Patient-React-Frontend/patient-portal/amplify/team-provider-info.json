@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-patientportal-dev-105017-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418154551:role/amplify-patientportal-dev-105017-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418154551:role/amplify-patientportal-dev-105017-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-patientportal-dev-105017-deployment",
+      "UnauthRoleName": "amplify-patientportal-dev-105017-unauthRole",
+      "StackName": "amplify-patientportal-dev-105017",
+      "StackId": "arn:aws:cloudformation:us-east-1:905418154551:stack/amplify-patientportal-dev-105017/032395b0-e149-11ee-a275-12c27b08bce9",
+      "AmplifyAppId": "d2sygvgaizlovo"
+    },
+    "categories": {
+      "auth": {
+        "patientportal6b4b4b17": {}
+      }
+    }
+  }
+}

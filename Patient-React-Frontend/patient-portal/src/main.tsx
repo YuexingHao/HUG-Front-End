@@ -11,6 +11,10 @@ import DashMain from './pages/dashboard-pages/dash-main.tsx'
 import ReportPage from './pages/dashboard-pages/dash-report.tsx'
 import SettingsPage from './pages/dashboard-pages/dash-settings.tsx'
 
+import { Amplify } from 'aws-amplify'
+import awsExports from './aws-exports'
+
+Amplify.configure(awsExports)
 
 // Below handles all of the browser routing in the URL.
 // 
@@ -56,7 +60,7 @@ const router = createBrowserRouter([
         element: <SettingsPage />
       }
     ]
-  }
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
