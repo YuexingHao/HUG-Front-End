@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "patientportal6b4b4b17": {}
+      },
+      "api": {
+        "patientportal": {}
       }
     }
   }
